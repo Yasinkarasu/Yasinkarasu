@@ -1,0 +1,61 @@
+- 👋 Hi, I’m @Yasinkarasu
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Yasinkarasu/Yasinkarasu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+
+#include<stdio.h>
+
+int main ()
+
+{
+label:
+	int sayi1=20;
+	int sayi2=3658;
+	int secenek;
+	int sonuc;
+	
+	printf("asagidakilerden bir secenek girin: \n");
+	printf("1- Toplama \n");
+	printf("2- Cikarma \n");
+	printf("3- Carpma \n");
+	printf("4- Bolme \n");
+	printf("9- Yeniden baslatma \n");
+	scanf("%d", &secenek);
+	
+if (secenek == 1){
+	
+	sonuc = sayi1 + sayi2;
+	printf("toplama isleminin sonucu = %d \n", sonuc );
+}
+
+	else if (secenek == 2){
+	
+	sonuc = sayi1 - sayi2;
+	printf("cikarma isleminin sonucu = %d \n", sonuc );
+}
+	else if (secenek == 3){
+	
+	sonuc = sayi1 * sayi2;
+	printf("cikarma isleminin sonucu = %d \n", sonuc );
+}
+	else if (secenek == 4){
+	
+	sonuc = sayi1 / sayi2;
+	printf("cikarma isleminin sonucu = %d \n", sonuc );
+	
+	
+}
+ if (secenek == 9){
+			
+		main();
+	}
+
+	printf("yeniden baslatmak istiyorsan 9 a bas");
+	return(0);
+}
